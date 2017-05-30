@@ -1,0 +1,63 @@
+.modal {
+    position: fixed;
+    min-width: 300px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #ccc;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+
+.modal .header {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.modal .header .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modal .content {
+    padding: 10px;
+    overflow: scroll;
+}
+
+.modal .footer {
+    position: absolute;
+    line-height: 50px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.modal .footer .button{
+    float: right;
+    margin-right: 10px;
+}
+
+.button {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #eee;
+    min-width: 80px;
+    cursor: pointer;
+}
